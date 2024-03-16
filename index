@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> My Website </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<!-- <script src="index.js"></script> -->
+    <h1> ivy </h1>
+    <h2> thisis my website :D </h2>
+
+    <img src="Images/roblox.webp" >
+    <p> i don't know what to write here but here's some text to fill in the space. </p>
+    <br>
+    <p> <em>fun facts about cats:</em> cats spend 70% of their lives sleeping. ancient egyptians would shave off their eyebrows when their cats died. a house cat can reach speeds of up to 30mph. cats are nearsighted, but their peripheral vision and night vision are much better than that of humans</p>
+    <a href="https://data.typeracer.com/pit/profile?user=ivytypess&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=ivytypess" border="0" alt="TypeRacer.com scorecard for user ivytypess"/></a>
+    <br>
+    <br>
+    <p> submit your questions v </p>
+
+    <h2 id = 'title-name'>Questions</h2>
+    <div class="form-container">
+      <div class="form">
+        <form action="form_page.php" method="POST">
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com" required>  
+          </div>
+          <br>
+          <div>
+            <label for="subject">Ask a question:</label>
+            <input type="text" id="subject" name="subject" placeholder="Click to add text" required>  
+          </div>
+          <br>
+          <div>
+            <label for="comment">Comments?</label>
+            <input type="text" id="comment" name="comment" placeholder="Click to add text">  
+          </div>
+          <br>
+          <div>
+            <label for="colour">Favourite colour:</label>
+            <input type="text" id="colour" name="colour" placeholder="Click to add text">  
+          </div>
+          <br>
+          <div>
+            <label for="animal">Favourite animal:</label>
+            <input type="text" id="animal" name="animal" placeholder="Cats">  
+          </div>
+          <br>
+          <div>
+            <label for="random">~random text!</label>
+          </div>
+          <br>
+          <div class="reset-submit-buttons">
+            <div>
+              <input type="reset">
+            </div>
+            <div>
+              <input type="submit">
+            </div>
+          </div>
+        </form>
+        <button onclick='doAction()'> Magic </button>'
+        <script>
+          var title = document.getElementById('title-name');
+
+          function doAction() {
+            title.innerHTML = 'Your email is: ' + document.getElementById('email').value;
+          }
+        </script>
+  </body>
+  <br>
+</html>
