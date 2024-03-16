@@ -1,0 +1,57 @@
+body {
+    height: 1750px;
+}
+h1 {
+    font-family: Impact;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 24pt;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    font-size: 12pt;
+    margin: 0 auto;
+    float: center;
+    width: 800px;
+}
+#icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+}
+#typeracer {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    font-family: Arial;
+    color: #284cb8;
+    border: solid;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #edaaee;
+    width: 300px;
+    justify-content: center;
+}
+.reset-submit-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
